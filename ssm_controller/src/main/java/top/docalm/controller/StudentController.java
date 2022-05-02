@@ -1,4 +1,7 @@
 package top.docalm.controller;
+/**
+ * 控制层类，实现对学生数据库的增删改查
+ */
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,9 +12,6 @@ import top.docalm.service.StudentService;
 
 import java.util.List;
 
-/**
- * 控制层
- */
 @Controller
 @RequestMapping("/student")//所有的方法路径都是以/student开头
 public class StudentController {
